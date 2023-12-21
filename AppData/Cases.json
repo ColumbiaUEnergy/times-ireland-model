@@ -1,13 +1,13 @@
 [
   {
-    "CaseId": 27,
-    "CreatedOn": "2022-09-26 03:08",
+    "CaseId": 7,
+    "CreatedOn": "2023-12-21 09:00",
     "Description": "",
-    "EditedOn": "2022-10-04 17:10",
-    "EndingYear": "2070",
+    "EditedOn": "2023-12-21 09:00",
+    "EndingYear": "2050",
     "FixResultFileName": "True",
     "FixResultInfo": {
-      "WorkTimesFolderPath": "",
+      "WorkTimesFolderPath": "D:\\Veda\\Veda_models\\~g2v_TIM\\dev-hydrogen\\AppData\\GAMSSAVE",
       "GdxElasticDermands": {
         "GdxSelectedFile": {
           "FileName": "",
@@ -29,7 +29,7 @@
         "FixYearsUpto": "2022",
         "GdxSelectedFile": {
           "FileName": "no_mitigation",
-          "FilePath": "C:\\VEDA\\GAMS_WrkTIMES\\No_Mitigation\\GamsSave\\no_mitigation.gdx",
+          "FilePath": "D:\\Veda\\Veda_models\\~g2v_TIM\\dev-hydrogen\\AppData\\GAMSSAVE\\no_mitigation.gdx",
           "IsSelected": true
         },
         "IsApplied": true,
@@ -41,22 +41,22 @@
     "Name": "Mitigation_CB",
     "ParametricGroup": null,
     "ParametricGroupId": null,
-    "PeriodsDefinition": "p23",
+    "PeriodsDefinition": "p39",
     "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 49,
+    "PropertiesGroupId": 21,
     "RegionGroup": "SingleRegion",
-    "RegionGroupId": 51,
+    "RegionGroupId": 23,
     "ScenarioGroup": "MitigationCAP2021CB",
-    "ScenarioGroupId": 52,
+    "ScenarioGroupId": 26,
     "Solver": "cplex",
     "SolverOptionFile": "cplex",
-    "UserName": "olex"
+    "UserName": "ESMA"
   },
   {
-    "CaseId": 24,
-    "CreatedOn": "2021-04-08 15:35",
+    "CaseId": 9,
+    "CreatedOn": "2023-12-21 09:00",
     "Description": "",
-    "EditedOn": "2022-10-04 05:03",
+    "EditedOn": "2023-12-21 09:00",
     "EndingYear": "2070",
     "FixResultFileName": "True",
     "FixResultInfo": {
@@ -96,21 +96,21 @@
     "ParametricGroupId": null,
     "PeriodsDefinition": "p23",
     "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 49,
+    "PropertiesGroupId": 21,
     "RegionGroup": "SingleRegion",
-    "RegionGroupId": 51,
+    "RegionGroupId": 23,
     "ScenarioGroup": "MitigationWAM",
-    "ScenarioGroupId": 56,
+    "ScenarioGroupId": 27,
     "Solver": "cplex",
     "SolverOptionFile": "cplex",
-    "UserName": "olex"
+    "UserName": "ESMA"
   },
   {
-    "CaseId": 25,
-    "CreatedOn": "2021-03-02 13:00",
+    "CaseId": 8,
+    "CreatedOn": "2023-12-21 09:00",
     "Description": "",
-    "EditedOn": "2022-10-04 22:22",
-    "EndingYear": "2070",
+    "EditedOn": "2023-12-21 09:00",
+    "EndingYear": "2050",
     "FixResultFileName": "False",
     "FixResultInfo": {
       "WorkTimesFolderPath": null,
@@ -147,15 +147,15 @@
     "Name": "No_Mitigation",
     "ParametricGroup": null,
     "ParametricGroupId": null,
-    "PeriodsDefinition": "p23",
+    "PeriodsDefinition": "p39",
     "PropertiesGroup": "DefaultProperties",
-    "PropertiesGroupId": 49,
+    "PropertiesGroupId": 21,
     "RegionGroup": "SingleRegion",
-    "RegionGroupId": 51,
+    "RegionGroupId": 23,
     "ScenarioGroup": "NoMitigation",
-    "ScenarioGroupId": 57,
+    "ScenarioGroupId": 24,
     "Solver": "cplex",
     "SolverOptionFile": "cplex",
-    "UserName": "olex"
+    "UserName": "ESMA"
   }
 ]
